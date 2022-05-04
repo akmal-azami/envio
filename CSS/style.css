@@ -147,3 +147,26 @@ background-color: var(--color-primary);
     }
     
 }
+
+
+/* ICONS */
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon-container {
+    background: #f3f9fa;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
