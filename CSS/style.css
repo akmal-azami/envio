@@ -6,6 +6,8 @@
     --color-accent: #ff3400;
     --color-headings: #1b0760;
     --color-body: #918ca4;
+    --border-radius: 30px;
+    --border-color: #ccc;
 }
 *, *::after, *::before {
     box-sizing: border-box;
@@ -232,7 +234,7 @@ background-color: var(--color-primary);
 /* Input for search */
 
 .input {
-    border: 1px solid lightgray;
+    border: 1px solid var(--border-color);
     border-radius: 40px;
     outline: 0;
     padding: 1.5rem 2rem;
@@ -240,6 +242,19 @@ background-color: var(--color-primary);
 }
 
 
+.input-group {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    display: flex;
+}
+
+.input-group .input {
+    border: 0;
+    flex-grow: 1;
+}
+
+.input-group .button {
+    margin: 4px;
 }
 
 ::placeholder {
