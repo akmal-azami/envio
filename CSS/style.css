@@ -358,4 +358,22 @@ background-color: var(--color-primary);
 
     }
 
+
+    /* Media */
+
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin: 0;
+}
+
+.media__body {
+    margin: 0 2rem ;
+}
+
+.media__image {
+    margin: 1rem;
     
+}
