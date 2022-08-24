@@ -680,6 +680,10 @@ margin-top: 0;
     border-bottom: 1px solid #222;
 
 }
+.nav img {
+    width: 15rem;
+    height: auto;
+}
 
 .nav__item >a {
 color: #d2d0db;
